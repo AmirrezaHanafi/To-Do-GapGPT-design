@@ -1,0 +1,18 @@
+export default function CodeHugeIcon({ className }) {
+  return (
+    <svg
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+    >
+      <path
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
+        d="m16 7l3.066 2.643C20.356 10.754 21 11.31 21 12s-.645 1.246-1.934 2.357L16 17M8 7L4.934 9.643C3.644 10.754 3 11.31 3 12s.645 1.246 1.934 2.357L8 17"
+      />
+    </svg>
+  );
+}
