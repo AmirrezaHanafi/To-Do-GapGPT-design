@@ -1,21 +1,61 @@
-# React + Vite
+# 📝 React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+یک اپلیکیشن مدیریت وظایف (To-Do List) مدرن با React، JavaScript و Zustand در استایل سایت GapGPT
 
-Currently, two official plugins are available:
+## ✨ ویژگی‌ها
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ✅ افزودن، ویرایش و حذف وظایف
+- 🔄 انتقال وظایف بین سه حالت: Todo، Doing، Done
+- 📱 رابط کاربری ریسپانسیو با Tailwind CSS
+- 🎯 مدیریت state با Zustand
+- ✔️ اعتبارسنجی فرم با Zod و React Hook Form
+- 🎨 Modal های native برای افزودن وظایف
+- ⌨️ پشتیبانی از کلیدهای میانبر (Enter برای ذخیره، Escape برای لغو)
+- 💾 ذخیره‌سازی خودکار در localStorage
 
-## React Compiler
+## 🚀 نصب و راه‌اندازی
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### پیش‌نیازها
 
-## Expanding the ESLint configuration
+- Node.js (نسخه 16 یا بالاتر)
+- npm، pnpm یا yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### مراحل نصب
 
-## Libraries
+1. کلون کردن پروژه:
+```bash
+git clone https://github.com/your-username/react-todo-app.git
+cd react-todo-app
 
-Zustand ,
-Immer
+2. نصب وابستگی‌ها:
+bash
+npm install
+# یا
+pnpm install
+# یا
+yarn install
+
+3. اجرای پروژه:
+bash
+npm run dev
+# یا
+pnpm dev
+# یا
+yarn dev
+
+4. باز کردن در مرورگر:
+
+http://localhost:5173
+
+## 🛠️ تکنولوژی‌های استفاده شده
+
+- **React 18** - کتابخانه UI
+- **TypeScript** - Type Safety
+- **Vite** - Build Tool
+- **Zustand** - State Management
+- **Zod** - Schema Validation
+- **React Hook Form** - Form Management
+- **Tailwind CSS** - Styling
+- **React Router** - Routing
+
+
