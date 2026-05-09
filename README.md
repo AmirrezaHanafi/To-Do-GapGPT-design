@@ -24,7 +24,7 @@
 
 1. کلون کردن پروژه:
 ```bash
-git clone https://github.com/your-username/react-todo-app.git
+git clone https://github.com/AmirrezaHanafi/To-Do-GapGPT-design.git
 cd react-todo-app
 
 2. نصب وابستگی‌ها:
